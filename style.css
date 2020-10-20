@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(https://www.publicdomainpictures.net/pictures/150000/velka/sunset-sky-1455125487HWs.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+main{
+    width: 80%;
+    max-width: 360px;
+    margin: 100px auto 0;
+}
+#oclock{
+    position: relative;
+    border-radius: 50%;
+    border: solid 15px #fff;
+    width: 100%;
+    padding-top: 100%;
+}
+.hand{
+    position: absolute;
+    width: 50%;
+    top: 50%;
+    transition-timing-function: cubic-bezier(0.1, 2.7, 0.65, 1);
+    left: 0;
+    height: 1px;
+    transition: all 0.2s;
+    transform-origin: 100%;
+    background-color: #000;
+}
+#hour{
+    -webkit-box-shadow: 5px 0px 0px 5px rgba(0,0,0,1);
+    -moz-box-shadow: 5px 0px 0px 5px rgba(0,0,0,1);
+    box-shadow: 5px 0px 0px 5px rgba(0,0,0,1);
+}
+#min{
+    -webkit-box-shadow: 5px 0px 0px 5px rgba(0,0,0,1);
+    -moz-box-shadow: 5px 0px 0px 5px rgba(0,0,0,1);
+    box-shadow: 5px 0px 0px 5px rgba(0,0,0,1);
+}
+#second{
+    -webkit-box-shadow: 5px 0px 0px 5px rgba(0,0,0,1);
+    -moz-box-shadow: 5px 0px 0px 5px rgba(0,0,0,1);
+    box-shadow: 5px 0px 0px 5px rgba(0,0,0,1);
+}
